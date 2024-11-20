@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Welcome to My Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Sections go here -->
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>
+                Hello! My name is Kennedy, and I am an Educational Technologist based in Kenya. 
+        I am passionate about integrating technology into education to enhance learning experiences. 
+        My expertise includes teaching English, developing innovative educational projects, 
+        and exploring coding to create edtech tools.
+            </p>
+            <img src="images/profile.png" alt="kennedy's profile picture" style="width: 150px;border-radius: 50%;">
+        </section>
+        <section id="skills">
+            <h2>Skills and Technology</h2>
+            <p>    Here are some of the skills and technologies I am proficient in:   
+            </p>
+            <ul>
+                <li>HTML, CSS, and JavaScript</li>
+                <li>Teaching English with innovative methods</li>
+                <li>Using FL Studio and Ableton Live for music education</li>
+                <li>Developing educational games and tools</li>
+                 <li>Educational content creation for CBC curriculum</li>
+            </ul>
+        </section>
+        <section id="projects">
+                <h2>Projects</h2>
+                <p>
+                    Here are some of the projects I have worked on:
+                </p>
+                <div class="projects">
+                    <h3>Future Edtech Radio</h3>
+                    <p>
+                        An online and offline radio station for educational purposes, broadcasting content for primary to high school students.
+                    </p>
+                </div>
+                <div class="project">
+                    <h3>Thogoto Model Comprehensive School Website</h3>
+                    <p>
+                        A modern school website designed with HTML, CSS, and JavaScript to showcase the school's activities, admissions, and events.
+                    </p>
+                </div>
+                <div class="project">
+                    <h3>Parts of Speech Game</h3>
+                    <p>
+                        An interactive online game to help learners master English grammar concepts as part of the Competency-Based Curriculum (CBC).
+                    </p>
+                </div>
+        </section>
+        <section id="contact">
+            <h2>Contact Me</h2>
+    <p>
+        Feel free to reach out to me for collaborations, educational projects, or inquiries. You can use the form below to get in touch.
+    </p>
+    <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="4" required></textarea><br><br>
+
+        <button type="submit">Send Message</button>
+    </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Kennedy's Portfolio</p>
+    </footer>
+</body>
+</html>
